@@ -1,1 +1,5 @@
-# My-Project
+# Online Shopping System Implementation 
+#### Video Demo: https://www.youtube.com/watch?v=CoUkK3iUagY
+#### This system utilizes the two classes “Product” and “ProductCatalog.” The system manages prices and stock, performs adding and removing of products from the users stock, and utilizes OPP per encapsulation. 
+#### This system utilizes the class “ShoppingCart.” It will add, remove, and change the quantity of how many items the user will wish to have, as well as seeing the total price of their items and clearing their cart. 
+#### This system will cover different discounts and other benefits based on user type such as a basic user or a member, or VIP. These different users, and the different classes that hold them, will have different discount prices based on the class. The system will also store user information and let them check out with their items. The first class “User” covers the standard user. This will override the discount. Premium users, under the class “PremiumUser” will get a 5% discount. VIP users, under the class "VIPUser” will get a 10% discount. 
